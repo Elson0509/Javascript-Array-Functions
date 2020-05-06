@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        const arr = [
+            {
+                name: 'A',
+                qtt: 12
+            },
+            {
+                name: 'B',
+                qtt: 5
+            },
+            {
+                name: 'C',
+                qtt: 8
+            },
+            {
+                name: 'D',
+                qtt: 34
+            },
+            {
+                name: 'E',
+                qtt: 0
+            },
+            {
+                name: 'F',
+                qtt: 60
+            },
+            {
+                name: 'G',
+                qtt: 150
+            },
+        ]
+
+        const filt = arr.filter(el => el.qtt > 12)
+
+        console.log(filt)
+
+        /*
+        [
+            {
+                name: 'D',
+                qtt: 34
+            },
+            {
+                name: 'F',
+                qtt: 60
+            },
+            {
+                name: 'G',
+                qtt: 150
+            },
+        ]
+        */
+
+    </script>
+</body>
+</html>

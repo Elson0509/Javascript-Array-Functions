@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        const arr = [
+            {
+                name: 'A',
+                qtt: 12
+            },
+            {
+                name: 'B',
+                qtt: 5
+            },
+            {
+                name: 'C',
+                qtt: 8
+            },
+            {
+                name: 'D',
+                qtt: 34
+            },
+            {
+                name: 'E',
+                qtt: 0
+            },
+            {
+                name: 'F',
+                qtt: 60
+            },
+            {
+                name: 'G',
+                qtt: 150
+            },
+        ]
+
+        const map = arr.map(el => {
+            return `Person ${el.name} has to pay $${el.qtt*6}`
+        })
+
+        console.log(map)
+
+        /*
+        0: "Person A has to pay $72"
+        1: "Person B has to pay $30"
+        2: "Person C has to pay $48"
+        3: "Person D has to pay $204"
+        4: "Person E has to pay $0"
+        5: "Person F has to pay $360"
+        6: "Person G has to pay $900"
+        */
+    </script>
+</body>
+</html>
