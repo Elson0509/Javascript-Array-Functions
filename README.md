@@ -19,3 +19,6 @@ Checks if any item in an array passes the condition.
 
 ## 06 - Every
 Checks if all items in an array pass a condition.
+
+## 07 - Find
+Returns the first element that passes a condition.
